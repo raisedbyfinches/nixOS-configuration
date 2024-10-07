@@ -25,7 +25,7 @@
   boot.tmp.cleanOnBoot = true;
   boot.kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
 
-  hardware.pulseaudio.enable = true;
+  #hardware.pulseaudio.enable = true;
   hardware.bluetooth.enable = true;
 
   networking.hostName = "grunklestan";
