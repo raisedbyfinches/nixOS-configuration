@@ -25,7 +25,6 @@
   boot.tmp.cleanOnBoot = true;
   boot.kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
 
-  sound.enable = true;
   hardware.pulseaudio.enable = true;
   hardware.bluetooth.enable = true;
 
@@ -59,10 +58,10 @@
   hardware.nvidia = {
     modesetting.enable = true;
     package = config.boot.kernelPackages.nvidiaPackages.beta;
+    open = true;
   };
   hardware.opengl = {
     enable = true;
-    driSupport = false;
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
   nixpkgs.config.nvidia.acceptLicense = true;
