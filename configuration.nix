@@ -13,6 +13,7 @@
       ./programs.nix
       ./services.nix
       ./users.nix
+      ./llm.nix
     ];
     
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
