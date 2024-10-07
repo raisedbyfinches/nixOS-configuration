@@ -60,7 +60,7 @@
     package = config.boot.kernelPackages.nvidiaPackages.beta;
     open = true;
   };
-  hardware.opengl = {
+  hardware.graphics = {
     enable = true;
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
