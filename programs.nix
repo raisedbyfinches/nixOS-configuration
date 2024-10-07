@@ -30,8 +30,8 @@
     trash-cli
     shfmt
 
-
     # dev
+    devenv
     emacs
     gcc
     gnumake

@@ -34,5 +34,11 @@
 
     # databases
     postgresql = { enable = true; };
+
+    # llms
+    #ollama = {
+    #  enable = true;
+    #  acceleration = "cuda";
+    #};
   };
 }
