@@ -20,7 +20,7 @@
         "type": "github"
       }
     },
-    "nixpkg": {
+    "nixpkgs": {
       "locked": {
         "lastModified": 1728018373,
         "narHash": "sha256-NOiTvBbRLIOe5F6RbHaAh6++BNjsb149fGZd1T4+KBg=",
@@ -36,22 +36,9 @@
         "type": "github"
       }
     },
-    "nixpkgs": {
-      "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-+z/XjO3QJs5rLE5UOf015gdVauVRQd2vZtsFkaXBq2Y=",
-        "path": "/nix/store/cc0ribc27c349w1v2anrby7z8kigy5pq-source",
-        "type": "path"
-      },
-      "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      }
-    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkg": "nixpkg",
         "nixpkgs": "nixpkgs"
       }
     }
