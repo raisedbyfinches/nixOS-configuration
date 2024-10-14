@@ -77,7 +77,9 @@
     groff
     ghostscript
     graphviz 
-    (hunspellWithDicts (dicts: with dicts; [ en-gb-large en-gb-ise ]))
+    hunspell
+    hunspellDicts.en-gb-large
+    hunspellDicts.en-gb-ise
   ];
 
   programs = {
