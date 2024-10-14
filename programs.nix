@@ -78,7 +78,7 @@
     ghostscript
     graphviz 
     enchant
-    hunspell
+    (aspellWithDicts (dicts: with dicts; [ en en-computers en-science ]))
   ];
 
   programs = {
