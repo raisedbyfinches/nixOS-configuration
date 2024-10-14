@@ -77,8 +77,7 @@
     groff
     ghostscript
     graphviz 
-    enchant
-    (aspellWithDicts (dicts: with dicts; [ en en-computers en-science ]))
+    (hunspellWithDicts (dicts: with dicts; [ en-gb-large en-gb-ise ]))
   ];
 
   programs = {
