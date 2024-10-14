@@ -77,6 +77,7 @@
     groff
     ghostscript
     graphviz 
+    (aspellWithDicts (dicts: with dicts; [ en en-computers en-science ]))
     hunspell
     hunspellDicts.en-gb-large
     hunspellDicts.en-gb-ise
