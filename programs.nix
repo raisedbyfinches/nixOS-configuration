@@ -76,11 +76,8 @@
     poppler
     groff
     ghostscript
-    graphviz
-    aspell
-    aspellDicts.en
-    aspellDicts.en-computers
-    aspellDicts.en-science
+    graphviz 
+    enchant
   ];
 
   programs = {
