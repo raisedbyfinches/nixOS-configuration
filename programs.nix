@@ -78,6 +78,7 @@
     ghostscript
     graphviz 
     enchant
+    hunspell
   ];
 
   programs = {
