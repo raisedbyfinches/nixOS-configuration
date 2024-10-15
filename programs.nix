@@ -30,6 +30,7 @@
     trash-cli
     shfmt
     cmake
+    libtool
 
     # dev
     devenv
