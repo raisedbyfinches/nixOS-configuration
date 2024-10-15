@@ -29,6 +29,7 @@
     ripgrep
     trash-cli
     shfmt
+    cmake
 
     # dev
     devenv
