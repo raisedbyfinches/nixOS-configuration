@@ -31,6 +31,7 @@
     shfmt
     cmake
     libtool
+    z3
 
     # dev
     devenv
