@@ -94,6 +94,7 @@
       hasklig 
       fira-code 
       fira-code-symbols 
+      agave
     ];
 
     fontconfig = {
