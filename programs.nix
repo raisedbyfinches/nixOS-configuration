@@ -88,7 +88,13 @@
 
   fonts = {
     enableGhostscriptFonts = true;
-    packages = with pkgs; [ font-awesome hasklig fira-code fira-code-symbols];
+    packages = with pkgs; [ 
+      mononoki 
+      font-awesome 
+      hasklig 
+      fira-code 
+      fira-code-symbols 
+    ];
 
     fontconfig = {
       defaultFonts = {
