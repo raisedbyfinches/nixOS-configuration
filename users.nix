@@ -38,6 +38,12 @@
           # media
           blanket
           
+	  # office
+          typst
+          typst-fmt
+          typst-live
+          typst-lsp   
+
           # networking
           varia
 

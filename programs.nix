@@ -70,7 +70,6 @@
 
 
     # web office
-    typst
     whatsapp-for-linux
     languagetool
     discord-canary
