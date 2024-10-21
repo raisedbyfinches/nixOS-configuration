@@ -70,7 +70,6 @@
 
 
     # web office
-    whatsapp-for-linux
     languagetool
     discord-canary
     firefox
