@@ -44,6 +44,7 @@
           typst-live
           typst-lsp   
           whatsapp-for-linux
+          pom
 
           # networking
           varia
