@@ -43,6 +43,7 @@
           typst-fmt
           typst-live
           typst-lsp   
+          whatsapp-for-linux
 
           # networking
           varia
