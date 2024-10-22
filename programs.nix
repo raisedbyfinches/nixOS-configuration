@@ -94,6 +94,7 @@
       fira-code 
       fira-code-symbols 
       agave
+      roboto
     ];
 
     fontconfig = {
