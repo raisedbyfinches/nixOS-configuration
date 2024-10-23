@@ -45,7 +45,7 @@
           typst-lsp   
           whatsapp-for-linux
           pom
-          gnome.pomodoro
+          gnome-pomodoro
 
           # networking
           varia
