@@ -48,8 +48,9 @@
     font-awesome
     source-code-pro
     material-icons
-    # paper-icon-theme
-    # vanilla-dmz
+    kitty
+    paper-icon-theme
+    vanilla-dmz
 
     # haskell
     ghc
@@ -83,6 +84,7 @@
 
   programs = {
     zsh.enable = true;
+    hyprland.enable = true;
   };
 
   fonts = {
