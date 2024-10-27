@@ -71,8 +71,36 @@
   };
   home.keyboard.layout = "uk";
   home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ"; 
-  gtk.cursorTheme = "Vanilla-DMZ";
-  
+
+  home.pointerCursor = {
+    gtk.enable = true;
+    # x11.enable = true;
+    package = pkgs.vanilla-dmz;
+    name = "Vanilla-DMZ";
+    size = 16;
+  };
+
+  gtk = {
+    enable = true;
+
+#    theme = {
+#      package = pkgs.flat-remix-gtk;
+#      name = "Flat-Remix-GTK-Grey-Darkest";
+#    };
+
+    iconTheme = {
+      package = pkgs.gnome.adwaita-icon-theme;
+      name = "Adwaita";
+    };
+
+#    font = {
+#      name = "Sans";
+#      size = 11;
+#    };
+  };
+
+
+
   # Let Home Manager install and manage itself.
   programs = {
     
