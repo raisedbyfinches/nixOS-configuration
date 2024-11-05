@@ -31,6 +31,8 @@
           hyprpicker
           anyrun
           wl-clipboard-rs
+          swappy
+          ydotool
 
           # haskell packages
           haskellPackages.stylish-haskell
