@@ -33,6 +33,7 @@
           wl-clipboard-rs
           swappy
           ydotool
+          easyeffects
 
           # haskell packages
           haskellPackages.stylish-haskell
@@ -53,7 +54,7 @@
           # media
           blanket
           
-	  # office
+          # office
           typst
           typst-fmt
           typst-live
