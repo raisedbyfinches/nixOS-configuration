@@ -35,7 +35,7 @@
           plasma5Packages.qt5ct
           wireplumber
           swww
-          playercontrol
+          playerctl
 
           # haskell packages
           haskellPackages.stylish-haskell
