@@ -32,6 +32,7 @@
           grimblast
           hyprkeys
           hyprland-protocols
+          bemenu
 
           anyrun
           wl-clipboard-rs
