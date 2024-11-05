@@ -30,6 +30,7 @@
           hyprlock
           hyprpicker
           anyrun
+          wl-clipboard-rs
 
           # haskell packages
           haskellPackages.stylish-haskell
