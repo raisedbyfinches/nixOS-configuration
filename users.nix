@@ -26,7 +26,10 @@
           gjs
           libnotify
           cliphist
-
+          hypridle
+          hyprlock
+          hyprpicker
+          anyrun
 
           # haskell packages
           haskellPackages.stylish-haskell
