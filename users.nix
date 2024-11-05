@@ -26,7 +26,6 @@
           gjs
           libnotify
           cliphist
-          hyprland
           hypridle
           hyprlock
           hyprpicker
