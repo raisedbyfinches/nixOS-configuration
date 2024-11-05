@@ -18,6 +18,7 @@
           wordnet
           pamixer
           killall
+          starship
 
           # haskell packages
           haskellPackages.stylish-haskell
