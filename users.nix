@@ -23,6 +23,10 @@
           # glitz
           ags
           fuzzel
+          gjs
+          libnotify
+          cliphist
+
 
           # haskell packages
           haskellPackages.stylish-haskell
