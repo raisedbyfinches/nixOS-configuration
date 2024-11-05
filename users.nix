@@ -38,6 +38,7 @@
           pavucontrol
           swww
           slurp
+          gtk-layer-shell
 
           # haskell packages
           haskellPackages.stylish-haskell
