@@ -36,7 +36,6 @@
           wireplumber
           swww
           playerctl
-          helvum
 
           # haskell packages
           haskellPackages.stylish-haskell
