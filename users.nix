@@ -39,6 +39,7 @@
           swww
           slurp
           gtk-layer-shell
+          libdbusmenu
 
           # haskell packages
           haskellPackages.stylish-haskell
