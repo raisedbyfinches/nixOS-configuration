@@ -36,6 +36,7 @@
           wireplumber
           swww
           playerctl
+          xdg-desktop-portal-hyprland
 
           # haskell packages
           haskellPackages.stylish-haskell
