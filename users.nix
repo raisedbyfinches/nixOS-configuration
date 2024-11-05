@@ -21,17 +21,22 @@
           starship
 
           # glitz
-          fuzzel
           cliphist
           hypridle
           hyprlock
           hyprpicker
           hyprnotify
+          hyprshot
+          hyprsunset
+          hyprpolkitagent
+          grimblast
+          hyprkeys
+          hyprland-protocols
+
           anyrun
           wl-clipboard-rs
           swappy
           ydotool
-          easyeffects
           plasma5Packages.qt5ct
           wireplumber
           swww
