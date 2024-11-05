@@ -35,6 +35,7 @@
           ydotool
           easyeffects
           plasma5Packages.qt5ct
+          pavucontrol
 
           # haskell packages
           haskellPackages.stylish-haskell
