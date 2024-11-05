@@ -29,6 +29,7 @@
           hypridle
           hyprlock
           hyprpicker
+          hyprnotify
           anyrun
           wl-clipboard-rs
           swappy
