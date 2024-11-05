@@ -6,9 +6,7 @@
   services = {
     # udev.packages = [ pkgs.platformio ];
 
-    # lorri
-    # lorri.enable = true;
-    # usurped by nix-direnv
+    systembus-notify.enable = true;
 
     # glitz
     xserver = {
@@ -16,8 +14,8 @@
       xkb.layout = "gb";
 
       displayManager = {
-	gdm = {
-	  enable = true;
+        gdm = {
+          enable = true;
           wayland = true;
         };
       };
