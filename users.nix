@@ -20,6 +20,10 @@
           killall
           starship
 
+          # glitz
+          ags
+          fuzzel
+
           # haskell packages
           haskellPackages.stylish-haskell
           haskellPackages.pandoc
