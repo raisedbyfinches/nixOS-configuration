@@ -35,7 +35,6 @@
           plasma5Packages.qt5ct
           pavucontrol
           swww
-          pactl
 
           # haskell packages
           haskellPackages.stylish-haskell
