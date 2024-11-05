@@ -33,10 +33,9 @@
           ydotool
           easyeffects
           plasma5Packages.qt5ct
-          pavucontrol
+          wireplumber
           swww
-          meson
-          cpio
+          playercontrol
 
           # haskell packages
           haskellPackages.stylish-haskell
@@ -72,7 +71,6 @@
           # emacs everywhere
           xdotool
           xclip
-          cmake
         ];
         shell = pkgs.zsh;
         uid = 1000;
