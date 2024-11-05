@@ -6,8 +6,6 @@
   services = {
     # udev.packages = [ pkgs.platformio ];
 
-    systembus-notify.enable = true;
-
     # glitz
     xserver = {
       enable = true;

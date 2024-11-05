@@ -21,10 +21,7 @@
           starship
 
           # glitz
-          ags
           fuzzel
-          gjs
-          libnotify
           cliphist
           hypridle
           hyprlock
@@ -39,8 +36,6 @@
           pavucontrol
           swww
           slurp
-          gtk-layer-shell
-          libdbusmenu
 
           # haskell packages
           haskellPackages.stylish-haskell
