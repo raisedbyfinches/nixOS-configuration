@@ -36,7 +36,6 @@
           wireplumber
           swww
           playerctl
-          python3Packages.pygobject3
 
           # haskell packages
           haskellPackages.stylish-haskell

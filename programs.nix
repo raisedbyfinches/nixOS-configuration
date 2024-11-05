@@ -63,8 +63,6 @@
     # lisps
     # clisp
     # sbcl
-    # other languages
-    python3
 
     # media
     # playerctl
