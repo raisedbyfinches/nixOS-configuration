@@ -37,6 +37,7 @@
           plasma5Packages.qt5ct
           pavucontrol
           swww
+          slurp
 
           # haskell packages
           haskellPackages.stylish-haskell
