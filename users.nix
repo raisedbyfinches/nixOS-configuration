@@ -34,6 +34,7 @@
           swappy
           ydotool
           easyeffects
+          plasma5Packages.qt5ct
 
           # haskell packages
           haskellPackages.stylish-haskell
