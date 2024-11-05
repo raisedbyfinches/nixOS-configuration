@@ -35,6 +35,8 @@
           plasma5Packages.qt5ct
           pavucontrol
           swww
+          meson
+          cpio
 
           # haskell packages
           haskellPackages.stylish-haskell
@@ -69,7 +71,8 @@
 
           # emacs everywhere
           xdotool
-          xclip          
+          xclip
+          cmake
         ];
         shell = pkgs.zsh;
         uid = 1000;
