@@ -36,6 +36,7 @@
           easyeffects
           plasma5Packages.qt5ct
           pavucontrol
+          swww
 
           # haskell packages
           haskellPackages.stylish-haskell
