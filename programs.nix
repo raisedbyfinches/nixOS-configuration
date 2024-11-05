@@ -71,7 +71,6 @@
     ffmpeg
     spotify
 
-
     # web office
     languagetool
     discord-canary

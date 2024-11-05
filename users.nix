@@ -61,7 +61,7 @@
           typst-fmt
           typst-live
           typst-lsp   
-          whatsie
+          whatsapp-for-linux
           pom
           gnome-pomodoro
 
