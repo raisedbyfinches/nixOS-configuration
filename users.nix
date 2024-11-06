@@ -33,6 +33,7 @@
           hyprkeys
           hyprland-protocols
           bemenu
+          eww
 
           anyrun
           wl-clipboard-rs
