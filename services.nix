@@ -6,9 +6,6 @@
   services = {
     # udev.packages = [ pkgs.platformio ];
     
-    dunst.enable = true;    
-
-    # glitz
     xserver = {
       enable = true;
       xkb.layout = "gb";

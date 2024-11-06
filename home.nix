@@ -98,7 +98,9 @@
 #      size = 11;
 #    };
 #  };
-
+  services = {
+    dunst.enable = true;
+  }
 
 
   # Let Home Manager install and manage itself.
