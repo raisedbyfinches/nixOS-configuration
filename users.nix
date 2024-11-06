@@ -35,6 +35,7 @@
           bemenu
           eww
           fortune
+          wmctrl
 
           anyrun
           wl-clipboard-rs
