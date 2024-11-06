@@ -5,6 +5,8 @@
   # List services that you want to enable:
   services = {
     # udev.packages = [ pkgs.platformio ];
+    
+    dunst.enable = true;    
 
     # glitz
     xserver = {
