@@ -36,11 +36,8 @@
           eww
           fortune
           wmctrl
-
-          anyrun
           wl-clipboard-rs
           swappy
-          ydotool
           plasma5Packages.qt5ct
           wireplumber
           swww
