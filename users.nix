@@ -34,6 +34,7 @@
           hyprland-protocols
           bemenu
           eww
+          fortune
 
           anyrun
           wl-clipboard-rs
