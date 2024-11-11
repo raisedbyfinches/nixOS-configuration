@@ -31,6 +31,7 @@
     shfmt
     cmake
     libtool
+    bc
 
     # dev
     devenv
