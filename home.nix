@@ -83,9 +83,6 @@ in
   };
 
   services = {
-    #-- Comodoro ----------------------------------------------------------------
-    comodoro.enable = true;
-
     #-- Gnome keyring -----------------------------------------------------------
     gnome-keyring.enable = true;
 
