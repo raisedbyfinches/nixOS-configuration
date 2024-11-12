@@ -18,11 +18,6 @@
         };
       };
       
-      windowManager = {
-        hyprland.plugins = [
-          pkgs.hyprlandPlugins.hyprspace
-        ];
-      };
       desktopManager = {
         gnome.enable = true;
         xterm.enable = false;
