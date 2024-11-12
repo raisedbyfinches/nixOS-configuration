@@ -201,13 +201,6 @@ in
     firefox = { enable = true; };
   };
 
-  wayland.windowManager.hyprland = {
-    plugins = [
-        pkgs.hyprlandPlugins.hyprspace
-    ];
-  };
-
-
   # Enable XDG integration
   xdg.enable = true;
 }
