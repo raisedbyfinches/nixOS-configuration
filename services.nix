@@ -20,7 +20,7 @@
       
       windowManager = {
         hyprland.plugins = [
-          pkgs.hyprlandPlugins.<plugin>
+          pkgs.hyprlandPlugins.hyprspace
         ];
       };
       desktopManager = {
