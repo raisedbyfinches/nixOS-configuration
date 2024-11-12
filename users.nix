@@ -43,7 +43,7 @@
           swww
           playerctl
           xdg-desktop-portal-hyprland
-          cava
+          remind
 
           # haskell packages
           haskellPackages.stylish-haskell
