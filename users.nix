@@ -71,6 +71,7 @@
           whatsapp-for-linux
           pom
           gnome-pomodoro
+          emacsPackages.djvu
 
           # networking
           varia
