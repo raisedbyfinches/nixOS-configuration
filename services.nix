@@ -2,16 +2,17 @@
 { config, lib, pkgs, ... }: {
   nixpkgs.config.allowUnfree = true;
 
-  wayland.windowManager.hyprland = {
-    plugins = [
-        pkgs.hyprlandPlugins.hyprspace
-    ];
-  };
 
   # List services that you want to enable:
   services = {
     # udev.packages = [ pkgs.platformio ];
-    
+
+    wayland.windowManager.hyprland = {
+      plugins = [
+          pkgs.hyprlandPlugins.hyprspace
+      ];
+    };
+
     xserver = {
       enable = true;
       xkb.layout = "gb";
