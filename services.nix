@@ -7,12 +7,6 @@
   services = {
     # udev.packages = [ pkgs.platformio ];
 
-    wayland.windowManager.hyprland = {
-      plugins = [
-          pkgs.hyprlandPlugins.hyprspace
-      ];
-    };
-
     xserver = {
       enable = true;
       xkb.layout = "gb";
