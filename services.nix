@@ -2,6 +2,12 @@
 { config, lib, pkgs, ... }: {
   nixpkgs.config.allowUnfree = true;
 
+  wayland.windowManager.hyprland = {
+    plugins = [
+        pkgs.hyprlandPlugins.hyprspace
+    ];
+  };
+
   # List services that you want to enable:
   services = {
     # udev.packages = [ pkgs.platformio ];
@@ -32,8 +38,6 @@
       alsa.enable = true;
       alsa.support32Bit = true;
       pulse.enable = true;
-      # If you want to use JACK applications, uncomment this
-      #jack.enable = true;
     };
 
     # databases
