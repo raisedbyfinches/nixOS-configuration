@@ -189,7 +189,7 @@ in
 
     emacs = {
       enable = true;
-      extraPackages = epkgs: [ epkgs.vterm epkgs.shfmt ];
+      extraPackages = epkgs: [ epkgs.vterm epkgs.shfmt epkgs.djvu ];
     };
 
     fzf = {
