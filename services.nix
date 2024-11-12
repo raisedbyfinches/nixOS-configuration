@@ -17,7 +17,12 @@
           wayland = true;
         };
       };
-
+      
+      windowManager = {
+        hyprland.plugins = [
+          pkgs.hyprlandPlugins.<plugin>
+        ];
+      };
       desktopManager = {
         gnome.enable = true;
         xterm.enable = false;
