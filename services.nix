@@ -39,9 +39,9 @@
     postgresql = { enable = true; };
 
     # llms
-    #ollama = {
-    #  enable = true;
-    #  acceleration = "cuda";
-    #};
+    ollama = {
+      enable = true;
+      acceleration = "cuda";
+    };
   };
 }
