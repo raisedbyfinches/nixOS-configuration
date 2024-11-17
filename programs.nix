@@ -85,7 +85,10 @@
   programs = {
     zsh.enable = true;
     waybar.enable = true;
-    hyprland.enable = true;
+    hyprland = {
+      enable = true;
+      xwayland.enable = true;
+    };
   };
 
   fonts = {
