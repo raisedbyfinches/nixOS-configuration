@@ -55,10 +55,7 @@
   # system.copySystemConfiguration = true;  -- disabled for flake!
   nixpkgs.config.allowUnfree = true;
 
-  hardware = {
-    opengl.enable = true;
-    
-    nvidia = {
+  hardware.nvidia = {
       # Modesetting is required.
       modesetting.enable = true;
 
