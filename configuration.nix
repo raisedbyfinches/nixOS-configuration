@@ -56,7 +56,7 @@
   nixpkgs.config.allowUnfree = true;
 
   hardware = {
-    opengl = true;
+    opengl.enable = true;
     
     nvidia = {
       # Modesetting is required.
