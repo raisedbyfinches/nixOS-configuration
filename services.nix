@@ -35,16 +35,6 @@
       pulse.enable = true;
     };
 
-    greetd = {
-      enable = true;
-      settings = rec {
-        initial_session = {
-          command = "${pkgs.hyprland}/bin/Hyprland";
-        };
-        default_session = initial_session;
-      };
-    };
-
     # databases
     postgresql = { enable = true; };
 
