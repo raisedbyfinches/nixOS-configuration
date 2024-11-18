@@ -84,6 +84,7 @@
 
   programs = {
     zsh.enable = true;
+    regreet.enable = true;
     waybar.enable = true;
     hyprland = {
       enable = true;
