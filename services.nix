@@ -13,7 +13,7 @@
 
       displayManager = {
         gdm = {
-          enable = false;
+          enable = true;
           wayland = true;
         };
       };
