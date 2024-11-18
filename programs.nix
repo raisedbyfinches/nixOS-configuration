@@ -82,6 +82,13 @@
     (aspellWithDicts (dicts: with dicts; [ en en-computers en-science ]))
   ];
 
+  xdg.portal = {
+      enable = true;
+      extraPortals = with pkgs; [
+          xdg-desktop-portal-hyprland
+      ];
+  };
+
   programs = {
     zsh.enable = true;
     regreet.enable = true;
