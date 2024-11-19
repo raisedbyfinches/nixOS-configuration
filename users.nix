@@ -32,6 +32,7 @@
           grimblast
           hyprkeys
           hyprland-protocols
+          hyprpolkitagent
           bemenu
           eww
           fortune

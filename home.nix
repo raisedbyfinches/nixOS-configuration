@@ -106,10 +106,10 @@ in
 
       settings = {
         global = {
-          font = "Rounded Mplus 1c 12";
+          font = "Rounded Mplus 1c 10";
           markup = "full";
           format =
-            "<b><span foreground='${colours.base11}'>%a</span></b>\\n<b>%s</b>\\n<span style='font-style=italic;'>%b</span>";
+            "<b>%s</b>\\n%b";
           sort = "yes";
           indicate_hidden = "yes";
           alignment = "left";
@@ -117,12 +117,12 @@ in
           show_age_threshold = 60;
           word_wrap = "no";
           ignore_newline = "no";
-          geometry = "600x6+2060+72";
+          geometry = "800x6+1330+72";
           transparency = 0;
           idle_threshold = 120;
           sticky_history = "yes";
           icon_position = "left";
-          max_icon_size = 24;
+          max_icon_size = 16;
           line_height = 8;
           separator_height = 2;
           padding = 24;
