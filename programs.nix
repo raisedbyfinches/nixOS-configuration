@@ -72,7 +72,7 @@
 
     # web office
     languagetool
-    discord-canary
+    webcord-vencord
     firefox
     texlive.combined.scheme-medium
     poppler
