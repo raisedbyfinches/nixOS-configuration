@@ -120,7 +120,7 @@ in
           width = 350;
           height = 160;
           origin = "bottom-right";
-          offset = "0x-20";
+          offset = "0x0";
           transparency = 0;
           idle_threshold = 120;
           sticky_history = "yes";
