@@ -46,9 +46,6 @@
     just
 
     # glitz
-    font-awesome
-    source-code-pro
-    material-icons
     kitty
     paper-icon-theme
     vanilla-dmz
@@ -102,21 +99,22 @@
   fonts = {
     enableGhostscriptFonts = true;
     packages = with pkgs; [ 
-      mononoki 
       font-awesome 
-      hasklig 
-      fira-code 
-      fira-code-symbols 
-      agave
-      roboto
+      source-sans-pro
+      noto-fonts
+      noto-fonts-cjk-sans
+      noto-fonts-color-emoji
+      noto-fonts-emoji
+      noto-fonts-extra
+      noto-emoji
     ];
 
     fontconfig = {
       defaultFonts = {
         monospace =
-          [ "hasklig" "Iosevka Nerd Font" "Font Awesome" "Material Icons" ];
-        sansSerif = [ "Mplus" ];
-        serif = [ "Mplus" ];
+          [ "JetBrains Mono" ];
+        sansSerif = [ "Source Sans Pro" ];
+        serif = [ "Source Sans Pro" ];
       };
     };
   };
