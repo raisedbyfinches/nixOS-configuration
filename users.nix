@@ -47,6 +47,7 @@
           playerctl
           xdg-desktop-portal-hyprland
           remind
+          qt6ct
 
           # haskell packages
           haskellPackages.stylish-haskell
