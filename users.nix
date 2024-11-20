@@ -7,7 +7,7 @@
     users = {
       g = {
         isNormalUser = true;
-        description = "Gareth";
+        description = "G";
         createHome = true;
         home = "/home/g";
         extraGroups = [ "wheel" "audio" "transmission" "plex" "dialout" ];
@@ -19,6 +19,7 @@
           pamixer
           killall
           starship
+          eza
 
           # glitz
           cliphist
