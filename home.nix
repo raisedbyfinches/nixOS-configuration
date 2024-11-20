@@ -107,14 +107,14 @@ in
         global = {
           font = "Rounded Mplus 1c 12";
           markup = "full";
-          notification_limit = 6;
+          notification_limit = 1;
           gap_size = 3;
           indicate_hidden = true;
           alignment = "left";
           bounce_freq = 5;
           width = 350;
           height = 160;
-          origin = "bottom-right";
+          origin = "top-middle";
           offset = "0x20";
           transparency = 0;
           idle_threshold = 120;
