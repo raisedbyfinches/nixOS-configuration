@@ -119,7 +119,7 @@ in
           ignore_newline = "no";
           #geometry = "800x6+1330+1000";  # deprecated
           width = 350;
-          height = 6;
+          height = 160;
           origin = "bottom-right";
           transparency = 0;
           idle_threshold = 120;
