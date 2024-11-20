@@ -100,7 +100,7 @@ in
       enable = true;
 
       iconTheme = {
-        name = "Paper";
+        name = "Paper, Adwaita";
         package = pkgs.paper-icon-theme;
       };
 
@@ -108,17 +108,13 @@ in
         global = {
           font = "Rounded Mplus 1c 12";
           markup = "full";
-          format =
-            "<b>%s</b>\\n%b";
           sort = "yes";
-          notification_limit = 3;
+          notification_limit = 6;
           gap_size = 3;
           indicate_hidden = "true";
           alignment = "left";
           bounce_freq = 5;
-          show_age_threshold = 60;
           word_wrap = "no";
-          ignore_newline = "no";
           width = 350;
           height = 160;
           origin = "bottom-right";
@@ -127,16 +123,16 @@ in
           idle_threshold = 120;
           sticky_history = "yes";
           icon_position = "left";
-          max_icon_size = 16;
           line_height = 8;
           separator_height = 0;
           padding = 24;
           horizontal_padding = 24;
           separator_color = "frame";
           startup_notification = false;
-          show_indicators = "yes";
           frame_width = 0;
           corner_radius = 4;
+          corners = "left";
+          dmenu = "bemenu -p dunst";
 
           shadow-exclude = [
             "name = 'Notification'"
@@ -147,13 +143,6 @@ in
             # disables shadows on sticky windows:
             "_NET_WM_STATE@:32a *= '_NET_WM_STATE_STICKY'"
           ];
-        };
-
-        shortcuts = {
-          close = "ctrl+space";
-          close_all = "ctrl+shift+space";
-          history = "ctrl+grave";
-          context = "ctrl+shift+period";
         };
 
         urgency_low = {
