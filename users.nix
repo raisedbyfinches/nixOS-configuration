@@ -41,13 +41,14 @@
           wl-clipboard-rs
           wlogout
           swappy
-          plasma5Packages.qt5ct
           wireplumber
           swww
           playerctl
           xdg-desktop-portal-hyprland
           remind
-          qt6ct
+          nwg-drawer
+          nwg-look
+          nwg-wrapper
 
           # haskell packages
           haskellPackages.stylish-haskell
