@@ -112,8 +112,8 @@
       defaultFonts = {
         monospace =
           [ "JetBrains Mono" ];
-        sansSerif = [ "Source Sans Pro" ];
-        serif = [ "Source Sans Pro" ];
+        sansSerif = [ "Noto Sans" ];
+        serif = [ "Noto Sans" ];
       };
     };
   };
