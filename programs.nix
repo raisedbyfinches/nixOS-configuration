@@ -106,7 +106,6 @@
       noto-fonts-color-emoji
       noto-fonts-emoji
       noto-fonts-extra
-      noto-emoji
     ];
 
     fontconfig = {
