@@ -105,7 +105,7 @@ in
 
       settings = {
         global = {
-          font = "Rounded Mplus 1c 12";
+          font = "Noto Sans 10";
           markup = "full";
           notification_limit = 1;
           gap_size = 3;
@@ -169,7 +169,12 @@ in
 
     emacs = {
       enable = true;
-      extraPackages = epkgs: [ epkgs.vterm epkgs.shfmt epkgs.djvu ];
+      extraPackages = epkgs: [
+	 epkgs.vterm
+         epkgs.shfmt
+	 epkgs.djvu
+	 epkgs.all-the-icons-nerd-fonts
+       ];
     };
 
     fzf = {
