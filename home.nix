@@ -111,13 +111,12 @@ in
           format =
             "<b>%s</b>\\n%b";
           sort = "yes";
-          indicate_hidden = "yes";
+          indicate_hidden = "true";
           alignment = "left";
           bounce_freq = 5;
           show_age_threshold = 60;
           word_wrap = "no";
           ignore_newline = "no";
-          #geometry = "800x6+1330+1000";  # deprecated
           width = 350;
           height = 160;
           origin = "bottom-right";
@@ -134,7 +133,7 @@ in
           startup_notification = false;
           show_indicators = "yes";
           frame_width = 0;
-          corner_radius = 2;
+          corner_radius = 4;
 
           shadow-exclude = [
             "name = 'Notification'"
