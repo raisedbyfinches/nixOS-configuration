@@ -117,7 +117,10 @@ in
           show_age_threshold = 60;
           word_wrap = "no";
           ignore_newline = "no";
-          geometry = "800x6+1330+1000";
+          #geometry = "800x6+1330+1000";  # deprecated
+          width = 350;
+          height = 6;
+          origin = "bottom-right";
           transparency = 0;
           idle_threshold = 120;
           sticky_history = "yes";
