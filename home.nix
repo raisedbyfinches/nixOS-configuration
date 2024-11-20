@@ -111,6 +111,8 @@ in
           format =
             "<b>%s</b>\\n%b";
           sort = "yes";
+          notification_limit = 3;
+          gap_size = 10;
           indicate_hidden = "true";
           alignment = "left";
           bounce_freq = 5;
@@ -127,7 +129,7 @@ in
           icon_position = "left";
           max_icon_size = 16;
           line_height = 8;
-          separator_height = 2;
+          separator_height = 0;
           padding = 24;
           horizontal_padding = 24;
           separator_color = "frame";
