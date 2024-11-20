@@ -70,14 +70,13 @@ in
     BROWSER = "firefox";
     LC_CTYPE = "en_GB.UTF-8";
     PAGER = "less";
-    TERM = "kgx";
+    TERM = "kitty";  # set to kgx for gnome
   };
   home.keyboard.layout = "uk";
   home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ"; 
 
   home.pointerCursor = {
     gtk.enable = true;
-    # x11.enable = true;
     package = pkgs.vanilla-dmz;
     name = "Vanilla-DMZ";
     size = 14;
@@ -108,13 +107,11 @@ in
         global = {
           font = "Rounded Mplus 1c 12";
           markup = "full";
-          sort = "yes";
           notification_limit = 6;
           gap_size = 3;
-          indicate_hidden = "true";
+          indicate_hidden = true;
           alignment = "left";
           bounce_freq = 5;
-          word_wrap = "no";
           width = 350;
           height = 160;
           origin = "bottom-right";
@@ -133,16 +130,6 @@ in
           corner_radius = 4;
           corners = "left";
           dmenu = "bemenu -p dunst";
-
-          shadow-exclude = [
-            "name = 'Notification'"
-            "class_g ?= 'Dunst'"
-            # disable shadows for hidden windows:
-            "_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN'"
-            #  "_GTK_FRAME_EXTENTS@:c",
-            # disables shadows on sticky windows:
-            "_NET_WM_STATE@:32a *= '_NET_WM_STATE_STICKY'"
-          ];
         };
 
         urgency_low = {
@@ -177,7 +164,7 @@ in
 
     direnv = {
       enable = true;
-      enableBashIntegration = true; # see note on other shells below
+      enableBashIntegration = true;
       nix-direnv.enable = true;
       enableZshIntegration = true;
     };

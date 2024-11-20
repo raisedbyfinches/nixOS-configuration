@@ -38,6 +38,7 @@
           fortune
           wmctrl
           wl-clipboard-rs
+          wlogout
           swappy
           plasma5Packages.qt5ct
           wireplumber
