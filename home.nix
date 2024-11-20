@@ -112,7 +112,7 @@ in
             "<b>%s</b>\\n%b";
           sort = "yes";
           notification_limit = 3;
-          gap_size = 10;
+          gap_size = 3;
           indicate_hidden = "true";
           alignment = "left";
           bounce_freq = 5;
