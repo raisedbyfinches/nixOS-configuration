@@ -131,14 +131,14 @@ in
         };
 
         urgency_low = {
-          background = colours.base02; # bg-alt;
+          background = colours.base01; # bg-alt;
           foreground = colours.basefg;
           frame_color = colours.basebg;
           timeout = 4;
         };
 
         urgency_normal = {
-          background = colours.base01; # bg-alt;
+          background = colours.base00; # bg-alt;
           foreground = colours.basefg;
           frame_color = colours.basebg;
           timeout = 6;
