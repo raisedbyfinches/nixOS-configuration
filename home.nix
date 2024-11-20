@@ -127,7 +127,6 @@ in
           startup_notification = false;
           frame_width = 0;
           corner_radius = 4;
-          corners = "left";
           dmenu = "bemenu -p dunst";
         };
 
