@@ -114,13 +114,12 @@ in
           bounce_freq = 5;
           width = 350;
           height = 160;
-          origin = "top-middle";
+          origin = "top-center";
           offset = "0x20";
           transparency = 0;
           idle_threshold = 120;
           sticky_history = "yes";
           icon_position = "left";
-          line_height = 8;
           separator_height = 0;
           padding = 24;
           horizontal_padding = 24;
