@@ -106,7 +106,7 @@ in
 
       settings = {
         global = {
-          font = "Rounded Mplus 1c 10";
+          font = "Rounded Mplus 1c 12";
           markup = "full";
           format =
             "<b>%s</b>\\n%b";
@@ -117,7 +117,7 @@ in
           show_age_threshold = 60;
           word_wrap = "no";
           ignore_newline = "no";
-          geometry = "800x6+1330+72";
+          geometry = "800x6+1330+1000";
           transparency = 0;
           idle_threshold = 120;
           sticky_history = "yes";
