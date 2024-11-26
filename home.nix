@@ -155,6 +155,9 @@ in
     };
   };
 
+  wayland.windowManager.hyprland.plugins = [
+    pkgs.hyprlandPlugins.hyprexpo
+  ];
 
   # Let Home Manager install and manage itself.
   programs = {
