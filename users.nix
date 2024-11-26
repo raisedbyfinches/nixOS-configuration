@@ -31,7 +31,6 @@
           hyprsunset
           hyprpolkitagent
           grimblast
-          hyprkeys
           hyprland-protocols
           hyprpolkitagent
           bemenu
