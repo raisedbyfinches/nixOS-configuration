@@ -2,9 +2,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  wayland.windowManager.hyprland.plugins = [
-    pkgs.hyprlandPlugins.hyprexpo
-  ];
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users = {
     users = {
