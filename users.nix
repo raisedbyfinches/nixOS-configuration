@@ -23,6 +23,7 @@
 
           # glitz
           cliphist
+	  pyprland
           hypridle
           hyprlock
           hyprpicker
