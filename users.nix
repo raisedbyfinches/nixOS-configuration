@@ -20,6 +20,7 @@
           killall
           starship
           eza
+          socat
 
           # glitz
           cliphist
