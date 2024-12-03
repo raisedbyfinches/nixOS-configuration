@@ -111,7 +111,7 @@
     fontconfig = {
       defaultFonts = {
         monospace =
-          [ "JetBrains Mono" ];
+          [ "JetBrains Mono", "Iosevka", "Hasklig" ];
         sansSerif = [ "Noto Sans" ];
         serif = [ "Noto Sans" ];
       };
