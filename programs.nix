@@ -106,6 +106,8 @@
       noto-fonts-color-emoji
       noto-fonts-emoji
       noto-fonts-extra
+      iosevka
+      hasklig
     ];
 
     fontconfig = {
