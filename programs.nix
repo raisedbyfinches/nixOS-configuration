@@ -35,7 +35,7 @@
 
     # dev
     devenv
-    emacs
+    emacs30-pgtk
     gcc
     gnumake
     clang

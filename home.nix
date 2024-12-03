@@ -90,6 +90,7 @@ in
     #-- EMACS -------------------------------------------------------------------
     emacs = {
       enable = true;
+      package = pkgs.emacs30-pgtk;
       startWithUserSession = "graphical";
       socketActivation.enable = true;
     };
