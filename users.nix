@@ -81,10 +81,6 @@
 
           # networking
           varia
-
-          # emacs everywhere
-          xdotool
-          xclip
         ];
         shell = pkgs.zsh;
         uid = 1000;
