@@ -71,6 +71,7 @@
     languagetool
     webcord-vencord
     firefox
+    thunderbird
     texlive.combined.scheme-medium
     poppler
     groff
