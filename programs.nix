@@ -108,6 +108,7 @@
       noto-fonts-extra
       iosevka
       hasklig
+      victor-mono
     ];
 
     fontconfig = {
