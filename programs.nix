@@ -70,7 +70,7 @@
     # web office
     wordnet
     languagetool
-    webcord-vencord
+    # webcord-vencord
     firefox
     thunderbird
     texlive.combined.scheme-medium
