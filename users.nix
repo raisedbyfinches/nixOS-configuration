@@ -63,15 +63,7 @@
           gnuplot
           openblas
  
-          # media
-          blanket
-          
           # office
-          typst
-          typst-fmt
-          typst-live
-          typst-lsp   
-          whatsapp-for-linux
           pom
           gnome-pomodoro
 

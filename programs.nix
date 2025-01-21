@@ -41,8 +41,8 @@
     clang
     vim
     ccls
-    tidyp             # HTML code formatting
-    stylelint         # CSS linter
+    tidyp 
+    stylelint
     just
 
     # glitz
@@ -58,19 +58,13 @@
     haskellPackages.fourmolu
     pandoc
 
-    # lisps
-    # clisp
-    # sbcl
-
     # media
-    # playerctl
     ffmpeg
     spotify
 
     # web office
     wordnet
     languagetool
-    # webcord-vencord
     firefox
     thunderbird
     texlive.combined.scheme-medium
