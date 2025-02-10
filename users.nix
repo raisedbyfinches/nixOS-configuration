@@ -66,9 +66,6 @@
           # office
           pom
           gnome-pomodoro
-
-          # networking
-          varia
         ];
         shell = pkgs.zsh;
         uid = 1000;
