@@ -68,6 +68,7 @@
     firefox
     thunderbird
     texlive.combined.scheme-medium
+    texlivePackages.archivo # font
     poppler
     groff
     ghostscript
@@ -85,6 +86,7 @@
   programs = {
     zsh.enable = true;
     waybar.enable = true;
+    steam.enable = true;
     hyprland = {
       enable = true;
       xwayland.enable = true;
@@ -104,6 +106,7 @@
       iosevka
       hasklig
       victor-mono
+      nerd-fonts.arimo
     ];
 
     fontconfig = {

@@ -17,5 +17,10 @@
       device = "/dev/disk/by-label/soos";
       fsType = "ext4";
     };
+
+#    "/media/winwin" = {
+#      device = "/dev/disk/by-label/soos";
+#      fsType = "ntfs";
+#    };
   };
 }
