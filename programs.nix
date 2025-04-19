@@ -62,6 +62,9 @@
     ffmpeg
     spotify
 
+    # games
+    # heroic
+
     # web office
     wordnet
     languagetool
@@ -86,7 +89,7 @@
   programs = {
     zsh.enable = true;
     waybar.enable = true;
-    steam.enable = true;
+    # steam.enable = true;
     hyprland = {
       enable = true;
       xwayland.enable = true;
