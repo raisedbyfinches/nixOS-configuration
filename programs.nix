@@ -22,20 +22,20 @@
     zsh-completions
     zlib
     p7zip
-    unzip
+    # unzip
     fd
     pass
     openssl
     ripgrep
     trash-cli
-    shfmt
+    # shfmt
     cmake
     libtool
     bc
 
     # dev
     devenv
-    emacs30-pgtk
+    emacs
     gcc
     gnumake
     clang
@@ -70,7 +70,7 @@
     languagetool
     firefox
     thunderbird
-    texlive.combined.scheme-medium
+    # texlive.combined.scheme-medium
     texlivePackages.archivo # font
     poppler
     groff
