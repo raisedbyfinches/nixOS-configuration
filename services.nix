@@ -4,6 +4,7 @@
 
   # List services that you want to enable:
   services = {
+
     xserver = {
       enable = true;
       xkb.layout = "gb";

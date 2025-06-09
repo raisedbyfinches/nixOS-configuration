@@ -16,19 +16,20 @@
     git
     gnupg
     imagemagick
+    nix-index
     zsh
     zsh-autosuggestions
     zsh-command-time
     zsh-completions
     zlib
     p7zip
-    # unzip
+    unzip
     fd
     pass
     openssl
     ripgrep
     trash-cli
-    # shfmt
+    shfmt
     cmake
     libtool
     bc
@@ -64,13 +65,15 @@
 
     # games
     # heroic
+    discord
+    # OR discord-canary
 
     # web office
     wordnet
     languagetool
     firefox
     thunderbird
-    # texlive.combined.scheme-medium
+    texlive.combined.scheme-medium
     texlivePackages.archivo # font
     poppler
     groff
