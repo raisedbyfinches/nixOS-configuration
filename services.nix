@@ -5,21 +5,20 @@
   # List services that you want to enable:
   services = {
 
+    displayManager = {
+      gdm = {
+        enable = true;
+        wayland = true;
+      };
+    };
+      
+    desktopManager = {
+      gnome.enable = true;
+    };
+
     xserver = {
       enable = true;
       xkb.layout = "gb";
-
-      displayManager = {
-        gdm = {
-          enable = true;
-          wayland = true;
-        };
-      };
-      
-      desktopManager = {
-        gnome.enable = true;
-        xterm.enable = false;
-      };
 
       videoDrivers = [ "nvidia" ];
 

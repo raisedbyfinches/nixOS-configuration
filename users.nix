@@ -27,6 +27,7 @@
           hyprlock
           hyprpicker
           hyprnotify
+          hyprpaper
           hyprshot
           hyprsunset
           hyprpolkitagent
