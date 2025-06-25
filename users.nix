@@ -58,6 +58,10 @@
           shellcheck
           irony-server
 
+          # copilot and other assistants
+          copilot-language-server-fhs
+          nodejs # for copilot-server-install
+
           # maths libraries
           arpack
           gnuplot
