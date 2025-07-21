@@ -70,6 +70,7 @@
           # office
           pom
           gnome-pomodoro
+          tty-clock
         ];
         shell = pkgs.zsh;
         uid = 1000;
