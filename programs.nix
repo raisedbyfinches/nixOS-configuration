@@ -35,21 +35,12 @@
     bc
 
     # dev
-    devenv
     emacs
     gcc
     gnumake
     clang
     vim
     ccls
-    tidyp 
-    stylelint
-    just
-
-    # glitz
-    kitty
-    paper-icon-theme
-    vanilla-dmz
 
     # haskell
     ghc

@@ -9,7 +9,7 @@
         description = "G";
         createHome = true;
         home = "/home/g";
-        extraGroups = [ "wheel" "audio" "transmission" "plex" "dialout" ];
+        extraGroups = [ "wheel" "audio" ];
         packages = with pkgs; [
           # generic
           libvterm
@@ -18,6 +18,13 @@
           starship
           eza
           socat
+          stylelint
+          just
+          fasd
+
+          # janet for scripting
+          janet
+          jpm
 
           # glitz
           cliphist
@@ -46,6 +53,12 @@
           nwg-drawer
           nwg-look
           nwg-wrapper
+          kitty
+          paper-icon-theme
+          vanilla-dmz
+
+	  # tree sitter grammars
+          tree-sitter-grammars.tree-sitter-janet-simple
 
           # haskell packages
           haskellPackages.stylish-haskell
@@ -54,13 +67,13 @@
           ghcid
           treefmt
 
+	  # LLM testing stuff
+          nodejs
+          copilot-language-server-fhs
+
           # LSPs and linters
           shellcheck
           irony-server
-
-          # copilot and other assistants
-          copilot-language-server-fhs
-          nodejs # for copilot-server-install
 
           # maths libraries
           arpack

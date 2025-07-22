@@ -12,18 +12,7 @@
       };
     };
       
-    desktopManager = {
-      gnome.enable = true;
-    };
-
-    xserver = {
-      enable = true;
-      xkb.layout = "gb";
-
-      videoDrivers = [ "nvidia" ];
-
-      excludePackages = with pkgs; [ xterm ];
-    };
+    desktopManager.gnome.enable = true;
 
     pipewire = {
       enable = true;
@@ -34,11 +23,5 @@
 
     # databases
     postgresql = { enable = true; };
-
-    # llms
-    ollama = {
-      enable = false;
-      acceleration = "cuda";
-    };
   };
 }
